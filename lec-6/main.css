@@ -1,0 +1,34 @@
+h1{
+    color:red;
+}
+
+#subheading{
+    color:blue;
+    /* dot line border */
+    border:2px dashed rgb(255, 98, 0)
+}
+.content{
+    /* write a comment */
+    color:yellow; 
+    height:300px;
+    width:50%;
+    /* solid border */
+   
+    /* border:2px solid rgb(255,98,71);     red,green,blue*/
+    /* border:2px solid rgba(255,99,54,0.8);  we can write opacity with this*/
+    border:2px solid red; 
+    border-top:2px solid green;
+    /* border:2px solid #ff6382 ;  */
+
+    border-radius: 50px;
+
+    background-image: url("./assets-cached.jpg");
+    background-position: left;
+    /* left  right  top  bottom  righttop  lefttop  rightbottom  leftbottom */
+    background-repeat: repeat;
+    background-attachment: scroll;
+        /* scroll  /  fixed */
+
+    margin: right 50px;
+    padding: 50px;
+}
